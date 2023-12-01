@@ -1,0 +1,41 @@
+.completed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // height: 100%;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        padding: 32px;
+        h2 {
+          font-size: $heading-2;
+          font-weight: $font-700;
+        }
+        p {
+            text-align: center;
+            font-size: $font-sm;
+            font-weight: 400;
+        }
+      }
+      .button{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 329px;
+        gap: 24px;
+    
+      }
+     
+  }
+  .icon{
+    display: flex;
+    padding: 0px 10px;
+
+  }

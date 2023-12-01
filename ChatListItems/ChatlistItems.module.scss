@@ -1,0 +1,33 @@
+
+
+.layout{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 6px;
+    background-color: white;
+
+    .img{
+        width: 56px;
+        height: 56px;
+    }
+    .textLayout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .date{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
